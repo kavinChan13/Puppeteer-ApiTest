@@ -6,7 +6,7 @@ const async = require('async');
 puppeteer.launch({headless: false}).then(async browser => {
     var page = await browser.newPage()
     page.setViewport({width: 1200, height: 600})
-    await page.goto('https://segmentfault.com/news/frontend')
+    await page.goto('https://segmentfault.com/news/frontend');
     await new Promise((cb) =>{
         setTimeout(cb(),1000)
     });
