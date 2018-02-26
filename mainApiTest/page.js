@@ -29,7 +29,7 @@ puppeteer.launch({headless: false}).then(async browser => {
 
 
 
-    // // Store the endpoint to be able to reconnect to Chromium
+    // Store the endpoint to be able to reconnect to Chromium
     // const browserWSEndpoint = browser.wsEndpoint();
     // // Disconnect puppeteer from Chromium
     // browser.disconnect();
